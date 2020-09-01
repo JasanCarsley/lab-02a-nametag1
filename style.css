@@ -1,0 +1,43 @@
+body {
+    background: skyblue;
+    font-family: "Roboto";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh
+}
+
+main {
+    background: red;
+    border-radius: 20px;
+    width: 375px;
+    text-align: center;
+}
+
+.top {
+    height: 120px;
+    color: white;
+}
+
+.middle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    height: 115px;
+    font-family: cursive;
+    font-size: 3rem;
+}
+
+.bottom {
+    height: 20px;
+}
+
+.hello {
+    font-size: 4.5rem;
+    line-height: 1;
+}
+
+.my-name-is {
+    font-size: 2rem;
+}
