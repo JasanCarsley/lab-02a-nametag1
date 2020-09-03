@@ -7,6 +7,9 @@ body {
     min-height: 100vh
 }
 
+.button {
+    
+}
 main {
     background: red;
     border-radius: 20px;
