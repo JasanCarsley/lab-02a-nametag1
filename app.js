@@ -4,8 +4,9 @@ const nameButton = document.getElementById('Name-button');
 
 nameButton.addEventListener('click', () => {
    
-    const userInput = name.value;
-    myName.textContent = userInput;
+    const userInput = nameInput.value;
+    console.log(userInput);
+    name.textContent = userInput;
 });
 
 
